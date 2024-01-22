@@ -1,0 +1,7 @@
+C:\Users\bruno\OneDrive\Desktop\Projects\.NET\Flatties\bin\Publish\Flatties.exe
+C:\Users\bruno\OneDrive\Desktop\Projects\.NET\Flatties\bin\Publish\appsettings.Development.json
+C:\Users\bruno\OneDrive\Desktop\Projects\.NET\Flatties\bin\Publish\appsettings.json
+C:\Users\bruno\OneDrive\Desktop\Projects\.NET\Flatties\bin\Publish\Flatties.dll
+C:\Users\bruno\OneDrive\Desktop\Projects\.NET\Flatties\bin\Publish\Flatties.deps.json
+C:\Users\bruno\OneDrive\Desktop\Projects\.NET\Flatties\bin\Publish\Flatties.runtimeconfig.json
+C:\Users\bruno\OneDrive\Desktop\Projects\.NET\Flatties\bin\Publish\Flatties.pdb
