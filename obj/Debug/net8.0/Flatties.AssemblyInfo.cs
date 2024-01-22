@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Flatties")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abe8ab607bd1b5580001e54cb0c08b6b902ee759")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cc384919a34c7822e4dc6efcc38b3b80e290c38")]
 [assembly: System.Reflection.AssemblyProductAttribute("Flatties")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Flatties")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
