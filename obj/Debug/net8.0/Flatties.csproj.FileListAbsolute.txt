@@ -20,11 +20,10 @@ C:\Users\bruno\OneDrive\Desktop\Projects\.NET\Flatties\obj\Debug\net8.0\staticwe
 C:\Users\bruno\OneDrive\Desktop\Projects\.NET\Flatties\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Flatties.props
 C:\Users\bruno\OneDrive\Desktop\Projects\.NET\Flatties\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Flatties.props
 C:\Users\bruno\OneDrive\Desktop\Projects\.NET\Flatties\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\bruno\OneDrive\Desktop\Projects\.NET\Flatties\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\bruno\OneDrive\Desktop\Projects\.NET\Flatties\obj\Debug\net8.0\scopedcss\bundle\Flatties.styles.css
-C:\Users\bruno\OneDrive\Desktop\Projects\.NET\Flatties\obj\Debug\net8.0\scopedcss\projectbundle\Flatties.bundle.scp.css
 C:\Users\bruno\OneDrive\Desktop\Projects\.NET\Flatties\obj\Debug\net8.0\Flatties.dll
 C:\Users\bruno\OneDrive\Desktop\Projects\.NET\Flatties\obj\Debug\net8.0\refint\Flatties.dll
 C:\Users\bruno\OneDrive\Desktop\Projects\.NET\Flatties\obj\Debug\net8.0\Flatties.pdb
 C:\Users\bruno\OneDrive\Desktop\Projects\.NET\Flatties\obj\Debug\net8.0\Flatties.genruntimeconfig.cache
 C:\Users\bruno\OneDrive\Desktop\Projects\.NET\Flatties\obj\Debug\net8.0\ref\Flatties.dll
+C:\Users\bruno\OneDrive\Desktop\Projects\.NET\Flatties\obj\Debug\net8.0\Flatties.sourcelink.json

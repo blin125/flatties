@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bJB8QhHzwIdUvqNyLlx6nThpy9oNzEyEuo9shafuaMo=",
+  "Hash": "gnbLSOSx0xwFTxzE2a7ICWvA4TiurXhN05jppnEd9Mk=",
   "Source": "Flatties",
   "BasePath": "_content/Flatties",
   "Mode": "Default",
@@ -16,44 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Flatties.styles.css",
-      "SourceId": "Flatties",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/Flatties",
-      "RelativePath": "Flatties.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Flatties.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Flatties.bundle.scp.css",
-      "SourceId": "Flatties",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/Flatties",
-      "RelativePath": "Flatties.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Flatties.bundle.scp.css"
-    },
     {
       "Identity": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\css\\site.css",
       "SourceId": "Flatties",

@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Flatties.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Flatties.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
