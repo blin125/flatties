@@ -16,6 +16,7 @@ namespace Flatties.Controllers
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
+        [Route("Home")]
         public IActionResult Index()
         {
             return View();

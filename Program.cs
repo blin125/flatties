@@ -28,6 +28,20 @@ builder.Logging.AddConsole(); // Add logging to the console
 
 var app = builder.Build();
 
+// Add custom middleware for URL redirection
+app.Use(async (context, next) =>
+{
+    // Check if the requested URL is the specific one you want to redirect
+    if (context.Request.Path == "/")
+    {
+        // Redirect to the desired URL
+        context.Response.Redirect("/Home");
+        return;
+    }
+
+    await next();
+});
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -41,12 +55,10 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapControllerRoute(
-        name: "default",
-        pattern: "{controller=Home}/{action=Index}/{id?}");
-    
-    endpoints.MapRazorPages();
-});
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapRazorPages();
+
 app.Run();
