@@ -5,6 +5,8 @@ using Microsoft.Extensions.Logging;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddMvc().AddRazorRuntimeCompilation();
+
 builder.Services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
         .AddMicrosoftIdentityWebApp(builder.Configuration.GetSection("AzureADB2C"));
 
@@ -54,7 +56,7 @@ app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
-
+app.UseStaticFiles();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

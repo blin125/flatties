@@ -1,0 +1,47 @@
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="~/css/Content/css/login.css" asp-append-version="true" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <title>Flatties|Login</title>
+    </head>
+    <body>
+        <div class="page-container">
+            <img id="house" src="~/css/Content\Images\houser_test.jpg" alt="My House">
+            <div class="title">
+                <h1>FLATTIES</h1>
+                <p>Enhance your flat experience TODAY!</p>
+            </div>
+            <form id="login-form" action="/submit" method="post">
+                <div class="login-container">
+                    <i class="fas fa-user"></i>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+    
+                <div class="login-container">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                </div>
+
+                <div class="remember-forgot">
+                    <input type="checkbox" name="remember" id="remember">
+                    <label for="remember">Remember Me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                
+                <div class="create-acc">
+                    <p> Don't have an account? <a href="#"> Create an account</a></p>
+                </div>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </body>
+</html>
