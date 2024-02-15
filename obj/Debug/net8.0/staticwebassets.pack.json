@@ -1,12 +1,12 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\css\\Content\\Images\\houser_test.jpg",
-      "PackagePath": "staticwebassets\\css\\Content\\Images\\houser_test.jpg"
+      "Id": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\SVG\\house.svg",
+      "PackagePath": "staticwebassets\\SVG\\house.svg"
     },
     {
-      "Id": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\css\\Content\\css\\login.css",
-      "PackagePath": "staticwebassets\\css\\Content\\css\\login.css"
+      "Id": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
       "Id": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\css\\site.css",

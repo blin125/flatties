@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6dq/iKA0ftuUKPPpO4fyCAmIHaO0lf2EmIH7nxDjyYU=",
+  "Hash": "1rgQIm4xdZszpmqf3/8PeQbhLNIIzWDOeSidUAXTCp8=",
   "Source": "Flatties",
   "BasePath": "_content/Flatties",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\css\\Content\\css\\login.css",
+      "Identity": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\css\\login.css",
       "SourceId": "Flatties",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\",
       "BasePath": "_content/Flatties",
-      "RelativePath": "css/Content/css/login.css",
+      "RelativePath": "css/login.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33,26 +33,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Content\\css\\login.css"
-    },
-    {
-      "Identity": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\css\\Content\\Images\\houser_test.jpg",
-      "SourceId": "Flatties",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\",
-      "BasePath": "_content/Flatties",
-      "RelativePath": "css/Content/Images/houser_test.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Content\\Images\\houser_test.jpg"
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
       "Identity": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\css\\site.css",
@@ -1193,6 +1174,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\SVG\\house.svg",
+      "SourceId": "Flatties",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\",
+      "BasePath": "_content/Flatties",
+      "RelativePath": "SVG/house.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\SVG\\house.svg"
     }
   ]
 }
