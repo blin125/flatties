@@ -83,6 +83,10 @@ input[type="password"] {
     z-index: 0;
 }
 
+#remember:hover{
+    cursor: pointer;
+}
+
 #login{
     border: none;
     padding: 0.5em;

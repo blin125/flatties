@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1rgQIm4xdZszpmqf3/8PeQbhLNIIzWDOeSidUAXTCp8=",
+  "Hash": "5yRWLIzM6y8Php6UEv/xvn51WnyiehrA6tujAfAmU7U=",
   "Source": "Flatties",
   "BasePath": "_content/Flatties",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\js\\login.js",
+      "SourceId": "Flatties",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\",
+      "BasePath": "_content/Flatties",
+      "RelativePath": "js/login.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\login.js"
     },
     {
       "Identity": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\js\\site.js",
