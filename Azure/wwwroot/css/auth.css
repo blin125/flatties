@@ -1,0 +1,223 @@
+
+input {
+    border: none;
+    padding: 0.8rem 2.5rem;
+    border-radius: 1.5rem;
+    border-color: var(--grey-input);
+    background-color: var(--grey-input);
+}
+
+input[type="email"],
+input[type="password"], 
+input[type="text"] {
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: var(--fs-400);
+}
+/* ------------------ */
+
+
+p{
+    margin: 0;
+    padding: 0;
+}
+#api, #localAccountForm{
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+}
+
+
+.entry-item, entry, intro {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* ------------------ */
+
+.create p{
+    padding: 0;
+    margin: 0;
+    font-size: var(--fs-400);
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: var(--login-back);
+}
+
+.page-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0rem 1em;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.entry-item {
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+.entry-item i {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+}
+
+.title {
+    text-align: center;
+    color: var(--theme-color);
+    margin-bottom: 2rem;
+}
+.title p{
+    font-size: var(--fs-600);
+}
+
+.title h1{
+    font-size: var(--fs-title);
+}
+.title p,h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-background{
+    bottom:0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--theme-color);
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    z-index: 0;
+}
+
+
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+}
+#createAccount{
+    margin-left: 1em;
+}
+#toggle-password, #toggle-password-1{
+    position: absolute;
+    top: 50%;
+    left: auto;
+    right: 1em;
+    transform: translateY(-50%);
+}
+#rememberMe:hover, label[for="rememberMe"]:hover{
+    cursor: pointer;
+}
+
+#next{
+    border: none;
+    padding: 0.5em;
+    font-size: var(--fs-400);
+    margin: 1em auto;
+    width: 100%;
+    display: block;
+    border-radius: 0.7rem;
+    background-color: var(--theme-color);
+    color: white;
+    font-weight: bold;
+
+}
+#next:hover{
+    cursor: pointer;
+    background-color: #00cbb6;
+}
+
+#house{
+    width: var(--fs-house);
+}
+
+#A{
+    top: 65%;
+    width: 100%;
+}
+
+#B{
+    display: none;
+    top: 65%;
+    width: 100%;
+    position: absolute;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+#localAccountForm{
+    padding: 1.7rem;
+    background-color: var(--white-form);
+    border-radius: 0.7rem;
+    z-index: 1;
+} 
+
+@media (min-width: 320px) {
+    .container{
+        position: relative;
+    }
+
+    #localAccountForm{
+        width: 14rem;
+    }
+    .form-background{
+        top: 40rem;
+    }
+    
+}
+#auth-title{
+    padding: 0;
+    margin: 0;
+}
+@media (min-width: 768px) {
+    #localAccountForm{
+        width: 15.5rem;
+    }
+    #localAccountForm{
+        padding: 2.3rem;
+    }
+    
+}
+@media (min-width: 1024px) {
+    .page-container {
+        /* padding-top: 5rem; */
+        position: relative;
+        width: 65%;
+        max-width: 50rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+
+    #localAccountForm{
+        width: 17rem;
+    }
+
+    .form-background{
+        top: 65%;
+        width: 100%;
+        position: absolute;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+
+    #B{
+        display: block;
+    }
+
+    #A{
+        display: None;
+    }
+}
