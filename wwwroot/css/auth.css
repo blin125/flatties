@@ -7,10 +7,11 @@ input {
 }
 
 input[type="email"],
-input[type="password"] {
+input[type="password"], 
+input[type="text"] {
     width: 100%;
     box-sizing: border-box;
-    font-size: var(--fs-500);
+    font-size: var(--fs-400);
 }
 
 .form-info{
@@ -83,6 +84,14 @@ input[type="password"] {
     z-index: 0;
 }
 
+#toggle-password, #toggle-password-1{
+    position: absolute;
+    top: 50%;
+    left: auto;
+    right: 1em;
+    transform: translateY(-50%);
+}
+
 #remember:hover{
     cursor: pointer;
 }
@@ -90,7 +99,7 @@ input[type="password"] {
 #login{
     border: none;
     padding: 0.5em;
-    font-size: var(--fs-500);
+    font-size: var(--fs-400);
     margin: 1em auto;
     width: 100%;
     display: block;
@@ -123,7 +132,7 @@ input[type="password"] {
 }
 
 #login-form{
-    padding: 2.5rem;
+    padding: 1.7rem;
     background-color: var(--white-form);
     border-radius: 0.7rem;
     z-index: 1;
@@ -145,9 +154,16 @@ input[type="password"] {
     }
     
 }
+#auth-title{
+    padding: 0;
+    margin: 0;
+}
 @media (min-width: 768px) {
     #login-form{
         width: 15.5rem;
+    }
+    #login-form{
+        padding: 2.3rem;
     }
     
 }
