@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5yRWLIzM6y8Php6UEv/xvn51WnyiehrA6tujAfAmU7U=",
+  "Hash": "bABpPdTKZ7O9ywj/dXCvd5uwKm4tF4gap3gtvAmy3Xk=",
   "Source": "Flatties",
   "BasePath": "_content/Flatties",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\css\\login.css",
+      "Identity": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\css\\auth.css",
       "SourceId": "Flatties",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\",
       "BasePath": "_content/Flatties",
-      "RelativePath": "css/login.css",
+      "RelativePath": "css/auth.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33,7 +33,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\login.css"
+      "OriginalItemSpec": "wwwroot\\css\\auth.css"
     },
     {
       "Identity": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\css\\site.css",
@@ -74,12 +74,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\js\\login.js",
+      "Identity": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\js\\auth.js",
       "SourceId": "Flatties",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\",
       "BasePath": "_content/Flatties",
-      "RelativePath": "js/login.js",
+      "RelativePath": "js/auth.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,7 +90,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\login.js"
+      "OriginalItemSpec": "wwwroot\\js\\auth.js"
     },
     {
       "Identity": "C:\\Users\\bruno\\OneDrive\\Desktop\\Projects\\.NET\\Flatties\\wwwroot\\js\\site.js",
