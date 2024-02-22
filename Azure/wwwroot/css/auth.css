@@ -22,7 +22,7 @@ p{
     margin: 0;
     padding: 0;
 }
-#api, #localAccountForm{
+#api, #localAccountForm ,#attributeVerification{
     z-index: 2;
     padding: 0;
     margin: 0;
@@ -157,7 +157,7 @@ p{
     border-bottom-right-radius: 1rem;
 }
 
-#localAccountForm{
+#localAccountForm ,#attributeVerification{
     padding: 1.7rem;
     background-color: var(--white-form);
     border-radius: 0.7rem;
@@ -169,7 +169,7 @@ p{
         position: relative;
     }
 
-    #localAccountForm{
+    #localAccountForm ,#attributeVerification{
         width: 14rem;
     }
     .form-background{
@@ -182,10 +182,10 @@ p{
     margin: 0;
 }
 @media (min-width: 768px) {
-    #localAccountForm{
+    #localAccountForm ,#attributeVerification{
         width: 15.5rem;
     }
-    #localAccountForm{
+    #localAccountForm ,#attributeVerification{
         padding: 2.3rem;
     }
     
@@ -201,7 +201,7 @@ p{
         border-bottom-right-radius: 1rem;
     }
 
-    #localAccountForm{
+    #localAccountForm ,#attributeVerification{
         width: 17rem;
     }
 

@@ -35,8 +35,10 @@ if(emailIcon && emailInputContainer){
 
 var passwordInputContainer = document.querySelector('.entry-item:nth-child(2)');
 var passwordIcon = document.createElement('i');
-passwordIcon.className = 'fas fa-lock';
-passwordInputContainer.insertBefore(passwordIcon, passwordInputContainer.firstChild);
+if(passwordIcon && passwordInputContainer){
+    passwordIcon.className = 'fas fa-lock';
+    passwordInputContainer.insertBefore(passwordIcon, passwordInputContainer.firstChild);
+}
 
 var rememberMeLabel = document.querySelector('.rememberMe label');
 if (rememberMeLabel) {
@@ -63,10 +65,12 @@ if (rememberMeDiv && passwordLabel && passwordInputContainer) {
 }
 
 var passwordInput = document.getElementById("password");
-passwordInput.removeAttribute("aria-label");
-passwordInput.removeAttribute("aria-required");
-
-passwordInput.style.border = "none";
-passwordInput.addEventListener("mouseover", function(event) {
-    event.preventDefault();
-});
+if(passwordInput){
+    passwordInput.removeAttribute("aria-label");
+    passwordInput.removeAttribute("aria-required");
+    
+    passwordInput.style.border = "none";
+    passwordInput.addEventListener("mouseover", function(event) {
+        event.preventDefault();
+    });
+}
