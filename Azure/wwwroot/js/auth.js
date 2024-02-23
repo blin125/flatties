@@ -1,6 +1,6 @@
-var headingElement = document.querySelector('.heading');
+var headingElement = document.querySelector('.heading h1');
 if (headingElement) {
-    headingElement.parentNode.removeChild(headingElement);
+    headingElement.textContent = 'FLATTIES';
 }
 var workingElement = document.querySelector('.working');
 if (workingElement) {
@@ -66,11 +66,24 @@ if (rememberMeDiv && passwordLabel && passwordInputContainer) {
 
 var passwordInput = document.getElementById("password");
 if(passwordInput){
-    passwordInput.removeAttribute("aria-label");
-    passwordInput.removeAttribute("aria-required");
-    
+    const eyeIcon = document.createElement('i');
+    eyeIcon.classList.add("fas", "fa-eye", "toggle-password");
+    eyeIcon.id = "toggle-password";
+    passwordInput.insertAdjacentElement("afterend", eyeIcon);    
     passwordInput.style.border = "none";
     passwordInput.addEventListener("mouseover", function(event) {
         event.preventDefault();
     });
+    eyeIcon.addEventListener("click", function(){
+        const password= this.previousElementSibling;
+        if(password.type == 'password'){
+            password.type = 'text';
+            this.classList.remove('fa-eye')
+            this.classList.add('fa-eye-slash')
+        }else{
+            password.type = 'password';
+            this.classList.add('fa-eye')
+            this.classList.remove('fa-eye-slash')
+        }
+    }) 
 }

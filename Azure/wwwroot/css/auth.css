@@ -1,3 +1,57 @@
+html {
+    background: 0 0
+}
+
+ul {
+    padding: 0
+}
+body {
+    font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-attachment: fixed;
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    font: -apple-system-body
+}
+h1, p {
+    padding: 0;
+    margin: 0;
+}
+
+a:focus {
+    outline: 0
+}
+
+input,
+select {
+    border: 1px solid #605e5c
+}
+
+input::placeholder {
+    color: #6a6a6a;
+    opacity: 1
+}
+
+img[data-tenant-branding-background=true] {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    position: fixed;
+    left: 0;
+    overflow: hidden;
+    top: 0
+}
+
+div[data-tenant-branding-background-color=true] {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 0
+}
+
 
 input {
     border: none;
@@ -15,50 +69,102 @@ input[type="text"] {
     box-sizing: border-box;
     font-size: var(--fs-400);
 }
-/* ------------------ */
 
-
-p{
-    margin: 0;
-    padding: 0;
+h1{
+    color: var(--theme-color);
 }
-#api, #localAccountForm ,#attributeVerification{
+.container {
+    text-align: center;
+    width: 100%;
+    display: table;
+    height: 100vh;
+    padding: 0
+}
+
+.heading h1 {
+    margin-bottom: 20px
+}
+
+.col-lg-6 {
+    max-width: 30rem;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    padding: 3rem;
+    background-color: var(--white-form);
+    border-radius: 0.7rem;
+    margin: 1.5rem;
+    position: relative;
     z-index: 2;
-    padding: 0;
+}
+
+.row {
+    width: 100%;
     margin: 0;
+    display: table-cell;
+    vertical-align: middle
 }
 
 
-.entry-item, entry, intro {
-    padding: 0;
-    margin: 0;
+.buttons button {
+    margin: 0 auto;
+    width: 60%;
+    height: 50px;
+    background-color: #296ec6;
+    border-radius: .5rem;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    margin-top: 10px
 }
 
+.buttons button:hover {
+    background-color: #1662c7;
+    border-color: #204d74
+}
 
-/* ------------------ */
+.buttons button[aria-disabled=true] {
+    opacity: .3
+}
 
+.buttons button:not([aria-disabled=true]) {
+    opacity: 1
+}
+
+.buttons #cancel {
+    padding: 0;
+    margin-left: auto;
+    background: 0 0;
+    border: 0;
+    width: inherit;
+    position: absolute;
+    background-color: transparent;
+    top: 2px;
+    left: 15px;
+    font-size: 1em;
+    color: #505050;
+    box-shadow: none;
+    text-align: left
+}
+
+.buttons #cancel:hover {
+    color: #000!important
+}
+
+.buttons #cancel:before {
+    padding: 10px;
+    vertical-align: sub;
+    zoom: 90%;
+    display: inline-block
+}
 .create p{
     padding: 0;
     margin: 0;
     font-size: var(--fs-400);
 }
 
-.container{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* justify-content: center; */
-    background-color: var(--login-back);
-}
-
-.page-container{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 0rem 1em;
-    min-height: 100vh;
-    justify-content: center;
+.entry{
+    margin-top: 1.5rem;
 }
 
 .entry-item {
@@ -73,23 +179,253 @@ p{
     left: 1rem;
     transform: translateY(-50%);
 }
-
-.title {
-    text-align: center;
-    color: var(--theme-color);
-    margin-bottom: 2rem;
-}
-.title p{
-    font-size: var(--fs-600);
-}
-
-.title h1{
-    font-size: var(--fs-title);
-}
-.title p,h1{
-    font-family: 'Montserrat', sans-serif;
+.form-background{
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    box-sizing: border-box;
+    background-color: var(--theme-color);
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    z-index: 1;
 }
 
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+}
+
+#api {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#simplemodal-container .simplemodal-data {
+    padding: 5px 8px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 3px;
+    font-style: italic
+}
+
+#LocalAccountSigninEmailExchange,
+#LocalAccountSigninUsernameExchange,
+#SignInWithLogonEmailExchange,
+#SignInWithLogonNameExchange,
+#SignUpWithLogonEmailExchange,
+#SignUpWithLogonNameExchange {
+    background-color: #296ec6;
+    background-image: url(none);
+    background-size: 10%;
+    background-position-x: 95%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    border-radius: .5rem;
+    width: 100%;
+    font-size: 1em;
+    margin-left: auto
+}
+
+#LocalAccountSigninEmailExchange:hover,
+#LocalAccountSigninUsernameExchange:hover,
+#SignInWithLogonEmailExchange:hover,
+#SignInWithLogonNameExchange:hover,
+#SignUpWithLogonEmailExchange:hover,
+#SignUpWithLogonNameExchange:hover {
+    background-color: #1662c7!important
+}
+
+#AmazonExchange:hover {
+    background-color: #36474f!important
+}
+
+#FacebookExchange:hover {
+    background-color: #3b5595!important
+}
+
+#GitHubExchange:hover {
+    background-color: #0f0f0f!important
+}
+
+#AppleExchange:hover,
+#AppleManagedExchange:hover {
+    background-color: #0f0f0f!important
+}
+
+#GoogleExchange:hover {
+    background-color: #c64a29!important
+}
+
+#LinkedInExchange:hover {
+    background-color: #0274b3!important
+}
+
+#MicrosoftAccountExchange:hover {
+    background-color: #01a4ef!important
+}
+
+#QQExchange:hover {
+    background-color: #1a97df!important
+}
+
+#TwitterExchange:hover {
+    background-color: #1da1f2!important
+}
+
+#WeChatExchange:hover {
+    background-color: #4cc522!important
+}
+
+#WeiboExchange:hover {
+    background-color: #e81123!important
+}
+
+
+#attributeList ul {
+    padding: 0
+}
+
+#attributeList ul li {
+    list-style: none;
+    margin: 1rem 0
+}
+
+label {
+    font-weight: 600
+}
+
+#attributeList ul li label {
+    display: block;
+    text-align: left;
+    float: none
+}
+
+#attributeList ul li.EmailBox label,
+#attributeList ul li.Password label,
+#attributeList ul li.TextBox label {
+    display: none!important
+}
+
+#attributeList ul li label[for=country] {
+    float: left;
+    display: inline-block!important;
+    margin-bottom: .5rem
+}
+
+#attributeList ul li label[for=cpiminternal_legalCountry] {
+    float: none;
+    display: block!important;
+    text-align: left;
+    margin-bottom: .5rem
+}
+
+#attributeList ul li label[for=cpiminternal_dateOfBirth] {
+    float: none;
+    text-align: left;
+    display: block!important;
+    margin-bottom: .5rem
+}
+
+#attributeList ul li input {
+    height: 50px;
+    width: 70%;
+    border-radius: .5rem;
+    text-indent: 20px
+}
+
+#attributeList ul li input::-webkit-input-placeholder {
+    text-indent: 20px
+}
+
+#attributeList ul li .attrEntry.validate input.invalid,
+
+#attributeList ul li .attrEntry.validate input:invalid {
+    border: 1px solid #b00
+}
+
+#attributeList ul li .attrEntry .verify {
+    margin-top: 2rem;
+    padding-bottom: 10px;
+    position: relative
+}
+
+#attributeList ul li .attrEntry .verificationControlContent .buttons {
+    margin-top: 2rem;
+    padding-bottom: 10px;
+    position: relative
+}
+
+#attributeList ul li .attrEntry .verify .sendButton[id$=ver_but_send] {
+    width: 60%;
+    height: 50px;
+    background-color: #296ec6;
+    color: #fff;
+    border-radius: .5rem
+}
+
+#attributeList ul li .attrEntry .verificationControlContent .sendCode {
+    width: 60%;
+}
+
+
+
+/* p{
+    margin: 0;
+    padding: 0;
+}
+#api, #localAccountForm ,#attributeVerification{
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+}
+
+
+.entry-item, entry, intro {
+    padding: 0;
+    margin: 0;
+}
+ */
+
+
+
+
+/* .container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--login-back);
+} */
+
+/* .page-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0rem 1em;
+    min-height: 100vh;
+    justify-content: center;
+} */
+/* .create p{
+    padding: 0;
+    margin: 0;
+    font-size: var(--fs-400);
+}
+.entry-item {
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+.entry-item i {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+}
 .form-background{
     bottom:0;
     position: absolute;
@@ -102,14 +438,31 @@ p{
     z-index: 0;
 }
 
-
 .remember-forgot{
     display: flex;
     justify-content: space-between;
-}
+} */
+/* .title {
+    text-align: center;
+    color: var(--theme-color);
+    margin-bottom: 2rem;
+} */
+/* .title p{
+    font-size: var(--fs-600);
+} */
+
+/* .title h1{
+    font-size: var(--fs-title);
+} */
+/* .title p,h1{
+    font-family: 'Montserrat', sans-serif;
+} */
+
+
 #createAccount{
     margin-left: 1em;
 }
+
 #toggle-password, #toggle-password-1{
     position: absolute;
     top: 50%;
@@ -117,6 +470,7 @@ p{
     right: 1em;
     transform: translateY(-50%);
 }
+
 #rememberMe:hover, label[for="rememberMe"]:hover{
     cursor: pointer;
 }
@@ -157,14 +511,8 @@ p{
     border-bottom-right-radius: 1rem;
 }
 
-#localAccountForm ,#attributeVerification{
-    padding: 1.7rem;
-    background-color: var(--white-form);
-    border-radius: 0.7rem;
-    z-index: 1;
-} 
 
-@media (min-width: 320px) {
+/* @media (min-width: 320px) {
     .container{
         position: relative;
     }
@@ -192,7 +540,6 @@ p{
 }
 @media (min-width: 1024px) {
     .page-container {
-        /* padding-top: 5rem; */
         position: relative;
         width: 65%;
         max-width: 50rem;
@@ -220,4 +567,4 @@ p{
     #A{
         display: None;
     }
-}
+} */
