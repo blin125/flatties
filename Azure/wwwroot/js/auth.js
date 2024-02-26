@@ -117,6 +117,7 @@ const liElements = Array.from(ulElement.querySelectorAll("li"));
 const order = [
   "givenName_li",
   "surname_li",
+  "displayName_li",
   "emailVerificationControl_li",
   "newPassword_li",
   "reenterPassword_li"

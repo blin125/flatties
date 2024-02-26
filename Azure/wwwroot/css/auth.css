@@ -98,7 +98,7 @@ i.fas.fa-circle-info {
 }
 
 .col-lg-6 {
-    max-width: 30rem;
+    max-width: 18rem;
     float: none;
     display: inline-block;
     vertical-align: top;
@@ -218,6 +218,9 @@ i.fas.fa-circle-info {
     justify-content: space-between;
 }
 
+.error{
+    color: red;
+}
 
 #api {
     margin: 0 auto;
@@ -433,6 +436,11 @@ i.fas.fa-circle-info {
     width: 100%;
 }
 
-.attrEntry input{
-    padding: 0.8rem 1.5rem;
+#emailVerificationCode{
+    margin-top: 1rem;
 }
+
+
+/* .attrEntry input{
+    padding: 0.8rem 1.5rem;
+} */
